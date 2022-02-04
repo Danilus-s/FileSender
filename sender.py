@@ -10,7 +10,7 @@ filename = input('Filename> ')
 filesize = os.path.getsize(filename)
 
 
-print(f'Connecting to {IP}:{PORT}')
+print(f'Connecting to {IP}:{PORT}...')
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 try:
     s.connect((IP, PORT))
